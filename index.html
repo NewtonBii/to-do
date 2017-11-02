@@ -18,19 +18,19 @@
              <label for="date">DATE</label>
              <input type="date" name="date" id="date">
              <label for="activity">ACTIVITY</label>
-             <input type="text" name="activity" placeholder="What To Do">
+             <input type="text" name="activity" placeholder="What To Do" id="activity">
              <label for="activity-time">FROM</label>
-             <input type="time" name="activity-time" id="from">
+             <input type="time" name="activity-time" id="from" value="00:00">
              <label for="activity-time">TO</label>
-             <input type="time" name="activity-time" id="to">
+             <input type="time" name="activity-time" id="to" value="00:00">
            </div>
            <button type="submit" id="btn" >ADD TO LIST</button>
           </form>
         </div>
         <div class="col-md-4">
           <div class="list-items">
-            <div class="well" id="list" style="height:10px">
-              <p></p>
+            <div class="well" id="list">
+              <ul></ul>
             </div>
           </div>
         </div>
